@@ -17,9 +17,9 @@ Website ini bertujuan untuk menampilkan keindahan alam Pantai Trikora melalui ga
 
 | Nama |Peran |
 |------|-----|
-| Mhd Febri Yansah| UI / UX|
-| Syawal Rizal Utama | UI / UX 2|
+| Mhd Febri Yansah| UI / UX |
 | Cahyadi Prasetuo | Front End |
+| Syawal Rizal Utama | UI / UX 2|
 | Azmi Novi Athaya | Front End 2 |
 | Ezzy Auriel Syach Lie | Front End 3|
 
