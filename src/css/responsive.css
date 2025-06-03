@@ -1,0 +1,518 @@
+/* Media Queries */
+@media (max-width: 1365px) {
+    .frame-4 {
+        width: 180px;
+        height: 46px;
+        top: 100px;
+        left: calc(50% - 90px);
+        padding: 4px 18px;
+    }
+    .frame-5 {
+        width: auto;
+    }
+    .travel {
+        width: 18px;
+        height: 18px;
+    }
+    .nature {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .trikora-about {
+        width: 500px;
+        height: 100px;
+        font-size: 15px;
+        line-height: 21px;
+        margin-bottom: 14px;
+    }
+    .about-muted {
+        font-size: 0;
+        line-height: 0;
+        color: transparent; 
+       margin-bottom: 10px;
+    }
+    .trikora-beach {
+        width: 500px;
+        height: 100px;
+        font-size: 15px;
+        line-height: 21px;
+        margin-bottom: 14px;
+    }
+    .beach-muted {
+        font-size: 0;
+        line-height: 0;
+        color: transparent; 
+       margin-bottom: 10px;
+    }
+    .rectangle-kepri {
+        width: 90%;
+        max-width: 1000px;
+        height: 450px;
+        margin: 32px auto;
+    }
+    .temukan {
+        width: 400px;
+        height: 65px;
+        font-size: 15px;
+        margin: 8px 0 0 0;
+    }
+    .discover {
+        margin: 260px auto 0;
+    }
+  }
+  @media (max-width: 991px) {
+    .frame-4 {
+        width: 160px;
+        height: 42px;
+        top: 80px;
+        left: calc(50% - 80px);
+        padding: 4px 16px;
+    }
+    .travel {
+        width: 16px;
+        height: 16px;
+    }
+    .nature {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .trikora-about {
+        width: 400px;
+        height: 90px;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
+    .about-muted {
+        font-size: 0;
+        line-height: 0;
+        color: transparent; 
+        margin-bottom: 10px;
+    }
+    .trikora-beach {
+        width: 400px;
+        height: 90px;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
+    .beach-muted {
+        font-size: 0;
+        line-height: 0;
+        color: transparent; 
+       margin-top: 180px;
+    }
+    .rectangle-kepri {
+        width: 90%;
+        max-width: 700px;
+        height: 400px;
+        margin: 32px auto;
+    }
+    .temukan {
+        width: 300px;
+        height: 60px;
+        font-size: 14px;
+        margin: 6px 0 0 0;
+    }
+    .discover {
+        margin: 240px auto 0;
+    }
+  }
+  @media (max-width: 767px) {
+    .frame-4 {
+        width: 140px;
+        height: 38px;
+        top: 60px;
+        left: calc(50% - 70px);
+        padding: 3px 14px;
+    }
+    .travel {
+        width: 14px;
+        height: 14px;
+    }
+    .nature {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .trikora-about {
+        width: 300px;
+        height: 80px;
+        font-size: 13px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .about-muted {
+        font-size: 0;
+        line-height: 0;
+        color: transparent; 
+        margin-bottom: 10px;
+    }
+    .trikora-beach {
+        width: 300px;
+        height: 80px;
+        font-size: 13px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .beach-muted {
+        font-size: 0;
+        line-height: 0;
+        color: transparent; 
+       margin-bottom: 10px;
+    }
+    .rectangle-kepri {
+        width: 90%;
+        max-width: 500px;
+        height: 350px;
+        margin: 32px auto;
+    }
+    .temukan {
+        width: 260px;
+        height: 55px;
+        font-size: 13px;
+        margin: 5px 0 0 0;
+    }
+    .discover {
+        margin: 220px auto 0;
+    }
+  }
+  @media (max-width: 480px) {
+    .frame-4 {
+        width: 120px;
+        height: 34px;
+        top: 50px;
+        left: calc(50% - 60px);
+        padding: 3px 12px;
+    }
+    .travel {
+        width: 12px;
+        height: 12px;
+    }
+    .nature {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .trikora-about {
+        width: 260px;
+        height: 70px;
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 8px;
+    }
+    .about-muted {
+        font-size: 0;
+        line-height: 0;
+        color: transparent; 
+        margin-bottom: 10px;
+    }
+    .trikora-beach {
+        width: 260px;
+        height: 70px;
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 8px;
+    }
+    .beach-muted {
+        font-size: 0;
+        line-height: 0;
+        color: transparent; 
+        margin-bottom: 10px;
+    }
+    .rectangle-kepri {
+        width: 90%;
+        max-width: 300px;
+        height: 300px;
+        margin: 32px auto;
+    }
+    .temukan {
+        width: 220px;
+        height: 50px;
+        font-size: 12px;
+        margin: 4px 0 0 0;
+    }
+    .discover {
+        margin: 200px auto 0;
+    }
+  }
+
+  
+/* Media Queries */
+
+/* 15.6 inch (1366px - 1920px) */
+@media (min-width: 1366px) and (max-width: 1920px) {
+    .frame { padding: 0 40px; }
+    .wisata-bahari { font-size: 26px; }
+    .about, .gallery { font-size: 15px; }
+    .home-button { font-size: 16px; }
+    .best-tour { font-size: 48px; }
+    .pesona-pulau-bintan { font-size: 16px; }
+    .rectangle { max-width: 1000px; margin-top: -10px; }
+    .rectangle-kepri { width: 1170px; height: 500px; margin: 32px 0 0 160px; }
+    .rectangle-a { width: 1110px; height: 275px; top: 428px; left: 31px; }
+    .flex-column { width: 511px; height: 166px; top: 48px; left: 38px; }
+    .kepri { font-size: 64px; line-height: 82.56px; }
+    .temukan { width: 464px; height: 73px; font-size: 16px; margin: 10px 0 0 0; }
+    .frame-4 { width: 196px; height: 40px; top: 117px; left: 618px; padding: 5px 32px; }
+    .frame-5 { width: 158px; }
+    .travel { width: 20px; height: 20px; }
+    .nature { font-size: 14px; line-height: 17.57px; }
+    .discover { margin: 250px auto 0; }
+    .road { margin: 30px auto 0; }
+    .frame-6 { margin: 73.5px auto 0; }
+    .frame-11 { margin: 130.5px auto 0; }
+    .container { margin: 40px auto 0; }
+    .trikora, .why-trikora { font-size: 40px; }
+    .trikora-about { width: 580px; height: 110px; font-size: 16px; line-height: 22.4px; }
+    .about-muted { width: 580px; height: 66px; font-size: 16px; line-height: 22.4px; }
+    .trikora-beach { width: 580px; height: 110px; font-size: 16px; line-height: 22.4px; }
+    .beach-muted { width: 580px; height: 66px; font-size: 16px; line-height: 22.4px; }
+    .medium-button, .medium-button-2 { padding: 10px 16px; }
+    .gallery-grid { grid-template-columns: repeat(4, 1fr); }
+  }
+  
+  /* Laptop (992px - 1365px) */
+  @media (max-width: 1365px) {
+    .best-tour { font-size: 44px; }
+    .pesona-pulau-bintan { font-size: 15px; max-width: 550px; }
+    .rectangle { max-width: 900px; margin-top: -8px; }
+    .rectangle-kepri { 
+        width: 90%;
+        max-width: 1000px; 
+        height: 450px; 
+        margin: 32px auto; 
+    }
+    .rectangle-a { 
+        width: 95%; 
+        max-width: 950px; 
+        height: 250px; 
+        top: 380px; 
+        left: 2.5%; 
+    }
+    .flex-column { 
+        width: 420px; 
+        height: 150px; 
+        top: 40px; 
+        left: 30px; 
+    }
+    .kepri { font-size: 56px; line-height: 72px; }
+    .temukan { width: 400px; height: 65px; font-size: 15px; margin: 8px 0 0 0; }
+    .frame-4 { 
+        width: 180px; 
+        height: 36px; 
+        top: 100px; 
+        left: 60%; 
+        padding: 4px 28px; 
+    }
+    .frame-5 { width: 140px; }
+    .travel { width: 18px; height: 18px; }
+    .nature { font-size: 13px; line-height: 16px; }
+    .discover { margin: 220px auto 0; }
+    .road { margin: 25px auto 0; }
+    .frame-6 { margin: 68.5px auto 0; }
+    .frame-11 { margin: 125.5px auto 0; }
+    .container { margin: 35px auto 0; }
+    .trikora, .why-trikora { font-size: 36px; }
+    .trikora-about { width: 500px; height: 100px; font-size: 15px; line-height: 21px; }
+    .about-muted { width: 500px; height: 60px; font-size: 15px; line-height: 21px; }
+    .trikora-beach { width: 500px; height: 100px; font-size: 15px; line-height: 21px; }
+    .beach-muted { width: 500px; height: 60px; font-size: 15px; line-height: 21px; }
+    .medium-button, .medium-button-2 { padding: 8px 14px; }
+    .gallery-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  
+  /* Tablet (768px - 991px) */
+  @media (max-width: 991px) {
+    .frame { flex-direction: column; align-items: flex-start; gap: 15px; }
+    .nav-toggle-label { display: block; }
+    .nav-toggle:checked ~ .navbar { display: flex; }
+    .navbar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: rgba(0,0,0,0.8);
+        padding: 20px;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        z-index: 50;
+    }
+    .frame-1 { flex-direction: column; gap: 15px; }
+    .frame-2 { flex-direction: column; gap: 15px; }
+    .frame-3 { width: 100%; text-align: center; padding: 14px 0; }
+    .best-tour { font-size: 36px; }
+    .pesona-pulau-bintan { font-size: 14px; }
+    .explorer { font-size: 32px; }
+    .destinasi { font-size: 15px; }
+    .rectangle { margin-top: -6px; }
+    .rectangle-kepri { 
+        width: 90%; 
+        max-width: 700px; 
+        height: 400px; 
+        margin: 32px auto; 
+    }
+    .rectangle-a { 
+        width: 95%; 
+        max-width: 650px; 
+        height: 200px; 
+        top: 320px; 
+        left: 2.5%; 
+    }
+    .flex-column { 
+        width: 320px; 
+        height: 130px; 
+        top: 30px; 
+        left: 20px; 
+    }
+    .kepri { font-size: 48px; line-height: 62px; }
+    .temukan { width: 300px; height: 60px; font-size: 14px; margin: 6px 0 0 0; }
+    .frame-4 { 
+        width: 160px; 
+        height: 32px; 
+        top: 80px; 
+        left: 60%; 
+        padding: 4px 24px; 
+    }
+    .frame-5 { width: 120px; }
+    .travel { width: 16px; height: 16px; }
+    .nature { font-size: 12px; line-height: 15px; }
+    .discover { margin: 180px auto 0; }
+    .road { margin: 20px auto 0; }
+    .frame-6 { margin: 63.5px auto 0; }
+    .frame-11 { margin: 120.5px auto 0; }
+    .container { margin: 30px auto 0; }
+    .trikora, .why-trikora { font-size: 32px; }
+    .trikora-about { width: 400px; height: 90px; font-size: 14px; line-height: 20px; }
+    .about-muted { width: 400px; height: 55px; font-size: 14px; line-height: 20px; }
+    .trikora-beach { width: 400px; height: 90px; font-size: 14px; line-height: 20px; }
+    .beach-muted { width: 400px; height: 55px; font-size: 14px; line-height: 20px; }
+    .medium-button, .medium-button-2 { padding: 8px 12px; }
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+    .travel-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: auto;
+        gap: 15px;
+    }
+    .travel-item.large { grid-row: 1 / 2; grid-column: 1 / 3; }
+    .travel-item.top-right-1 { grid-row: 2 / 3; grid-column: 1 / 2; }
+    .travel-item.top-right-2 { grid-row: 2 / 3; grid-column: 2 / 3; }
+    .travel-item.bottom-right-1 { grid-row: 3 / 4; grid-column: 1 / 2; }
+    .travel-item.bottom-right-2 { grid-row: 3 / 4; grid-column: 2 / 3; }
+    .footer-container { grid-template-columns: 1fr; }
+  }
+  
+  /* Mobile (<768px) */
+  @media (max-width: 767px) {
+    .wisata-bahari { font-size: 24px; }
+    .best-tour { font-size: 32px; }
+    .pesona-pulau-bintan, .destinasi, .road { font-size: 14px; }
+    .explorer, .discover { font-size: 28px; }
+    .rectangle { padding: 15px; margin-top: -4px; }
+    .rectangle-kepri { 
+        width: 90%; 
+        max-width: 500px; 
+        height: 350px; 
+        margin: 32px auto; 
+    }
+    .rectangle-a { 
+        width: 95%; 
+        max-width: 450px; 
+        height: 180px; 
+        top: 280px; 
+        left: 2.5%; 
+    }
+    .flex-column { 
+        width: 280px; 
+        height: 120px; 
+        top: 25px; 
+        left: 15px; 
+    }
+    .kepri { font-size: 40px; line-height: 52px; }
+    .temukan { width: 260px; height: 55px; font-size: 13px; margin: 5px 0 0 0; }
+    .frame-4 { 
+        width: 140px; 
+        height: 30px; 
+        top: 60px; 
+        left: 60%; 
+        padding: 3px 20px; 
+    }
+    .frame-5 { width: 100px; }
+    .travel { width: 14px; height: 14px; }
+    .nature { font-size: 11px; line-height: 14px; }
+    .discover { margin: 160px auto 0; }
+    .road { margin: 15px auto 0; }
+    .frame-6 { margin: 58.5px auto 0; }
+    .frame-11 { margin: 115.5px auto 0; }
+    .container { margin: 25px auto 0; }
+    .trikora, .why-trikora { font-size: 28px; }
+    .trikora-about { width: 300px; height: 80px; font-size: 13px; line-height: 18px; }
+    .about-muted { width: 300px; height: 50px; font-size: 13px; line-height: 18px; }
+    .trikora-beach { width: 300px; height: 80px; font-size: 13px; line-height: 18px; }
+    .beach-muted { width: 300px; height: 50px; font-size: 13px; line-height: 18px; }
+    .medium-button, .medium-button-2 { padding: 6px 10px; }
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+    .travel-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 250px);
+        gap: 15px;
+    }
+    .travel-item.large { grid-row: 1 / 2; grid-column: 1 / 2; }
+    .travel-item.top-right-1 { grid-row: 2 / 3; grid-column: 1 / 2; }
+    .travel-item.top-right-2 { grid-row: 3 / 4; grid-column: 1 / 2; }
+    .travel-item.bottom-right-1 { grid-row: 4 / 5; grid-column: 1 / 2; }
+    .travel-item.bottom-right-2 { grid-row: 5 / 6; grid-column: 1 / 2; }
+  }
+  
+  /* Small Mobile (<480px) */
+  @media (max-width: 480px) {
+    .wisata-bahari { font-size: 22px; }
+    .best-tour { font-size: 28px; }
+    .pesona-pulau-bintan, .destinasi, .road, .temukan { font-size: 13px; }
+    .explorer { font-size: 26px; }
+    .discover { font-size: 20px; }
+    .pantai { padding: 5px 20px; font-size: 13px; }
+    .rectangle { margin-top: -2px; }
+    .rectangle-kepri { 
+        width: 90%; 
+        max-width: 300px; 
+        height: 300px; 
+        margin: 32px auto; 
+    }
+    .rectangle-a { 
+        width: 95%; 
+        max-width: 280px; 
+        height: 150px; 
+        top: 240px; 
+        left: 2.5%; 
+    }
+    .flex-column { 
+        width: 240px; 
+        height: 100px; 
+        top: 20px; 
+        left: 10px; 
+    }
+    .kepri { font-size: 36px; line-height: 46px; }
+    .temukan { width: 220px; height: 50px; font-size: 12px; margin: 4px 0 0 0; }
+    .frame-4 { 
+        width: 120px; 
+        height: 28px; 
+        top: 50px; 
+        left: 60%; 
+        padding: 3px 16px; 
+    }
+    .frame-5 { width: 80px; }
+    .travel { width: 12px; height: 12px; }
+    .nature { font-size: 10px; line-height: 12px; }
+    .discover { margin: 140px auto 0; }
+    .road { margin: 10px auto 0; }
+    .frame-6 { margin: 53.5px auto 0; }
+    .frame-11 { margin: 110.5px auto 0; }
+    .container { margin: 20px auto 0; }
+    .trikora, .why-trikora { font-size: 24px; }
+    .trikora-about { width: 260px; height: 70px; font-size: 12px; line-height: 16px; }
+    .about-muted { width: 260px; height: 45px; font-size: 12px; line-height: 16px; }
+    .trikora-beach { width: 260px; height: 70px; font-size: 12px; line-height: 16px; }
+    .beach-muted { width: 260px; height: 45px; font-size: 12px; line-height: 16px; }
+    .medium-button, .medium-button-2 { padding: 6px 8px; }
+    .gallery-grid { grid-template-columns: 1fr; }
+  }

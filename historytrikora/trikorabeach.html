@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sejarah Pantai Trikora</title>
+    <link rel="stylesheet" href="trikorabeach.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;0,800;1,600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <p class="subtitle">About Us</p>
+      </header>
+
+      <section class="content-section">
+        <div class="image-column">
+          <img src="banyan.jpg" alt="Pemandangan Pantai Trikora" />
+        </div>
+        <div class="text-column">
+          <div class="judul">
+            <h1>History Of Trikora Beach</h1>
+          </div>
+          <p id="hs1">
+            Pantai trikora adalah salahsatu nama pantai yang ada dipulau bintan
+            kepulauan riau Indonesia yang memiliki hamparan pasir putih
+            sepanjang kurang lebih 25 kilometer, pantai yang memiliki cerita
+            sejarah dengan keindahan eksotis ini mempunyai daya tarik tersendiri
+            bagi wisatawan dari berbagai negara sehingga tempat ini menjadi
+            salahsatu destinasi bahari unggulan yang ada dibintan kepulauan
+            riau., namun tahukah Anda dibalik keindahan pantai Trikora ini tentu
+            saja mempunyai latar belakang cerita dan asal usul kenapa pantai ini
+            dinamakan pantai Trikora yang tentu saja tidak semua kalangan
+            masyarakat tahu apa sebab dinamakan pantai Trikora.
+          </p>
+          <p id="hs2">
+            Pantai trikora dalah nama sebuah pantai yang ada tepatnya di desa
+            Malang Rapat kab.Bintan yang berjarak lebih kurang 46 kilometer dari
+            pusat kota Tanjung Pinang, cerita singkat asal usul nama Trikora
+            adalah petikan kata dari kalimat tri komando rakyat dalam tragedi
+            konflik selama kurang lebih 2 tahun antara Indonesia dengan Malaysia
+            pada tanggal 19 desember 1961 hingga 15 agustus 1962.
+          </p>
+        </div>
+      </section>
+
+      <section class="content-section reverse">
+        <div class="image-column2">
+          <img src="trikora.jpg" alt="Suasana Pantai Trikora Lainnya" />
+        </div>
+        <div class="text-column">
+          <p id="hs3">
+            Pembentukan trikora yang ada dibawah kepemimpinan presiden Soekarno
+            pada masa tahun tersebut yang juga dalam rangka menentukan masa
+            depan dalam penguasaan wilayah diantaranya Sabah, Serawak dan Brunai
+            Darussalam, pembentukkan Trikora atau tri komando rakyat diumumkan
+            oleh presiden Soekarno di alun alun Jogja dan pergerakan pun
+            dilakukan dipulau Bintan, karena pulau ini merupakan tempat yang
+            cukup strategis dalam menjaga pertahanan yang sekaligus menjadi
+            garis pantai terdekat dengan perbatasann Indonesia-malaysia, konflik
+            yang pernah terjadi antara Indonesia dengan malaysia itu berawal
+            dari keinginan federasi malaya atau lebih dikenal sebagai
+            persekutuan tanah melayu (malaysia) pada tahun 1961 yang ingin
+            menggabungkan brunai darussalam, sabah dan serawak kedalam kekuasaan
+            malaysia yang tidak disetujui oleh manila,
+          </p>
+          <p id="hs4">
+            keinginan pembentukan federasi malaya juga ditentang langsung oleh
+            presiden Soekarno yang dianggap pembentukan tersebut adalah
+            merupakan bentuk kolonialisme dan imperiallisme dalam bentuk baru
+            serta dukungan terhadap berbagai gangguan keamanan kemerdekaan dan
+            pemberontakan di Indonesia setelah proklamasi kemerdekaan
+            dideklarasikan pada 17 agustus 1945.
+          </p>
+        </div>
+      </section>
+
+      <div class="back-button-container">
+        <a href="../index.html" class="back-button" id="tombolKembali"
+          >Back To Home</a
+        >
+      </div>
+    </div>
+
+    <script>
+      // Bagian JavaScript untuk fungsionalitas tambahan
+      const tombolKembali = document.getElementById("tombolKembali");
+
+      if (tombolKembali) {
+        tombolKembali.addEventListener("click", function (event) {
+          event.preventDefault();
+          // Ganti dengan aksi yang diinginkan, contoh:
+          window.location.href = "../index.html";
+          alert('Tombol "Back To Home" diklik!');
+          console.log("Tombol kembali telah diaktifkan.");
+        });
+      }
+    </script>
+    <script src="../lang.js"></script>
+    <script>
+      const savedLang = localStorage.getItem("lang") || "id";
+      applyLanguage(savedLang);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Wisata Bahari Bintan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://db.onlinewebfonts.com/c/73c00071d90ecfb78bf0ccdeda529307?family=Nico+Moji" rel="stylesheet"><style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        /* Footer Utama */
+        .footer {
+            background: #13253F;
+            color: white;
+            padding: 60px 40px;
+            width: 100%;
+        }
+
+        .footer-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 60px;
+            align-items: start;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-brand {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .brand-title {
+            width: 540px;
+            font-size: 26px;
+            font-weight: 500;
+            color: white;
+            letter-spacing: 0.5px;
+            font-family: 'Nico Moji', sans-serif;
+        }
+
+        .language-section {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .language-label {
+            font-size: 14px;
+            color: #a0a0a0;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .language-select {
+            background: #334155;
+            border: 1px solid #475569;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+            min-width: 180px;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+            background-position: right 12px center;
+            background-repeat: no-repeat;
+            background-size: 16px;
+            padding-right: 40px;
+        }
+
+        .language-select option {
+            background: #334155;
+            color: white;
+        }
+
+        .footer-nav {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .nav-item {
+            font-size: 16px;
+            color: #e2e8f0;
+            cursor: pointer;
+            transition: color 0.2s ease;
+            font-weight: 400;
+        }
+
+        .nav-item:hover {
+            color: white;
+        }
+
+        .contact-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .contact-title {
+            font-size: 16px;
+            color: #e2e8f0;
+            font-weight: 400;
+        }
+
+        .message-form {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .input-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .message-input {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #475569;
+            color: white;
+            padding: 12px 0 12px 35px;
+            font-size: 14px;
+            outline: none;
+            resize: none;
+            min-height: 40px;
+            width: 100%;
+            transition: border-bottom-color 0.2s ease;
+        }
+
+        .message-input:focus {
+            border-bottom-color: #f97316;
+        }
+
+        .message-input::placeholder {
+            color: #94a3b8;
+        }
+
+        .input-icon {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #94a3b8;
+            font-size: 16px;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .send-btn {
+            background: #f97316;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 14px;
+            align-self: flex-start;
+            transition: background-color 0.2s ease;
+        }
+
+        .send-btn:hover {
+            background: #ea580c;
+        }
+
+        /* Footer Bottom - Terpisah dan Full Layar */
+        .footer-bottom {
+            background: #0d1117;
+            color: white;
+            padding: 20px 0;
+            width: 100%;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 0;
+        }
+
+        .footer-bottom-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .copyright {
+            font-size: 14px;
+            color: #e2e8f0;
+            font-weight: 400;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 12px;
+        }
+
+        .social-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 16px;
+            transition: transform 0.2s ease;
+        }
+
+        .social-icon:hover {
+            transform: translateY(-2px);
+        }
+
+        .facebook {
+            background: #3b5998;
+        }
+
+        .twitter {
+            background: #1da1f2;
+        }
+
+        .instagram {
+            background: linear-gradient(45deg, #e4405f, #833ab4, #fd1d1d);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .footer {
+                padding: 40px 20px;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .footer-bottom-container {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+                padding: 0 20px;
+            }
+
+            .language-section {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+            }
+
+            .language-select {
+                width: 100%;
+                min-width: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Konten utama halaman (opsional) -->
+    <div class="main-content">
+        <h1>Halaman Website</h1>
+        <p>Konten website Anda di sini...</p>
+    </div>
+
+    <!-- Footer Utama -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Brand and Language Section -->
+            <div class="footer-brand">
+                <h1 class="brand-title">Wisata Bahari Bintan</h1>
+
+                <div class="language-section">
+                    <label class="language-label">Language</label>
+                    <select class="language-select">
+                        <option value="id">
+                            🇮🇩 Indonesia (ID)
+                        </option>
+                        <option value="en">🇺🇸 English (EN)</option>
+                        <option value="zh">🇨🇳 中文 (CN)</option>
+                        <option value="my">🇲🇾 Bahasa Malaysia (MY)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Navigation Section -->
+            <div class="footer-nav">
+                <div class="nav-item">Overview</div>
+                <div class="nav-item">About Us</div>
+                <div class="nav-item">Gallery</div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="contact-section">
+                <div class="contact-title">Contact</div>
+                <div class="message-form">
+                    <div class="input-container">
+                        <i class="fas fa-envelope input-icon"></i>
+                        <textarea class="message-input" placeholder="Enter your message" rows="1"></textarea>
+                    </div>
+                    <button class="send-btn">Send</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer Bottom - Terpisah dan Full Layar -->
+    <div class="footer-bottom">
+        <div class="footer-bottom-container">
+            <div class="copyright">
+                Create by © Wisata Bahari Bintan 2025. All Rights Reserved
+            </div>
+            <div class="social-icons">
+                <div class="social-icon facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="social-icon twitter">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="social-icon instagram">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Auto-resize textarea
+            const textarea = document.querySelector('.message-input');
+            textarea.addEventListener('input', function () {
+                this.style.height = 'auto';
+                this.style.height = this.scrollHeight + 'px';
+            });
+
+            // Send button functionality
+            const sendBtn = document.querySelector('.send-btn');
+            sendBtn.addEventListener('click', function () {
+                const message = textarea.value.trim();
+                if (message) {
+                    alert('Pesan berhasil dikirim: ' + message);
+                    textarea.value = '';
+                    textarea.style.height = 'auto';
+                } else {
+                    alert('Silakan masukkan pesan terlebih dahulu');
+                }
+            });
+
+            // Enter key to send (Shift+Enter for new line)
+            textarea.addEventListener('keydown', function (e) {
+                if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault();
+                    sendBtn.click();
+                }
+            });
+
+            // Language change handler
+            const languageSelect = document.querySelector('.language-select');
+            languageSelect.addEventListener('change', function () {
+                alert('Bahasa berhasil diubah ke: ' + this.options[this.selectedIndex].text);
+            });
+
+            // Navigation items
+            const navItems = document.querySelectorAll('.nav-item');
+            navItems.forEach(item => {
+                item.addEventListener('click', function () {
+                    alert('Navigasi ke halaman: ' + this.textContent);
+                });
+            });
+
+            // Social media icons
+            const socialIcons = document.querySelectorAll('.social-icon');
+            socialIcons.forEach(icon => {
+                icon.addEventListener('click', function () {
+                    let platform = '';
+                    if (this.classList.contains('facebook')) platform = 'Facebook';
+                    else if (this.classList.contains('twitter')) platform = 'Twitter';
+                    else if (this.classList.contains('instagram')) platform = 'Instagram';
+
+                    alert('Mengarahkan ke ' + platform + ' Wisata Bahari Bintan');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

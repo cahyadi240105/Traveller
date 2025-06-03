@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sejarah Pantai Trikora</title>
+    <link rel="stylesheet" href="whytrikora.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;0,800;1,600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <p class="subtitle">About Us</p>
+      </header>
+
+      <section class="content-section">
+        <div class="image-column">
+          <img src="banyan.jpg" alt="Pemandangan Pantai Trikora" />
+        </div>
+        <div class="text-column">
+          <div class="judul">
+            <h1>Why Trikora Beach</h1>
+          </div>
+          <p id="teks-why1">
+            Pantai Trikora merupakan salah satu destinasi wisata unggulan yang
+            terletak di Pulau Bintan, Kepulauan Riau. Dengan garis pantai yang
+            membentang panjang, pasir putih yang lembut, dan air laut yang
+            jernih kebiruan, Trikora menghadirkan pesona alam yang masih asri
+            dan alami. Pantai ini sangat direkomendasikan bagi wisatawan yang
+            mencari ketenangan dan keindahan tropis jauh dari keramaian kota.
+            Selain keindahan panoramanya, Pantai Trikora juga memiliki nilai
+            budaya dan sejarah yang melekat, menjadikannya tempat yang ideal
+            untuk wisata edukatif sekaligus rekreasi.
+          </p>
+          <p id="teks-why2">
+            Akses menuju pantai ini relatif mudah, dengan infrastruktur yang
+            terus berkembang, serta tersedia berbagai penginapan dan fasilitas
+            wisata yang memadai. Aktivitas seperti snorkeling, berenang,
+            memancing, hingga menikmati kuliner laut lokal menjadi daya tarik
+            tambahan yang tidak boleh dilewatkan. Dengan kombinasi keindahan
+            alam, kenyamanan, dan nilai sejarahnya, Pantai Trikora adalah
+            pilihan tepat untuk perancangan destinasi wisata yang berkesan dan
+            berkelanjutan.
+          </p>
+        </div>
+      </section>
+
+      <section class="content-section reverse">
+        <div class="image-column2">
+          <img src="trikora.jpg" alt="Suasana Pantai Trikora Lainnya" />
+        </div>
+        <div class="text-column">
+          <p id="teks-why3">
+            Pantai Trikora, yang terletak di sisi timur Pulau Bintan, merupakan
+            permata tersembunyi di Kepulauan Riau yang menawarkan pengalaman
+            wisata pantai yang autentik dan memikat. Keindahan alamnya yang
+            alami, dengan hamparan pasir putih bersih, batu-batu granit eksotis,
+            serta air laut yang tenang dan jernih, menjadikan Pantai Trikora
+            sebagai destinasi yang ideal untuk relaksasi maupun eksplorasi alam.
+            Dibandingkan dengan destinasi pantai lainnya, Trikora memiliki
+            keunggulan dalam suasana yang lebih tenang dan belum terlalu ramai
+            oleh wisatawan, sehingga cocok bagi pelancong yang mencari kedamaian
+            dan ingin merasakan suasana pantai yang masih alami. Pantai ini juga
+            sangat cocok dijadikan lokasi untuk desain wisata yang mengedepankan
+            konsep eco-tourism, karena lingkungannya yang masih sangat terjaga
+            dan bersih.
+          </p>
+          <p id="teks-why4">
+            Selain keindahan alam, Pantai Trikora juga memiliki nilai sejarah
+            dan budaya yang menarik untuk diangkat dalam desain wisata. Wilayah
+            ini pernah menjadi bagian dari sejarah perjuangan nasional, yang
+            dapat dikaitkan dengan edukasi wisata sejarah lokal. Fasilitas di
+            sekitar pantai pun mulai berkembang—mulai dari resort, penginapan
+            lokal (homestay), tempat makan khas laut, hingga penyedia jasa
+            aktivitas wisata seperti snorkeling, kano, dan tur laut. Potensi
+            pemberdayaan masyarakat lokal juga besar, sehingga sangat
+            memungkinkan untuk menciptakan konsep wisata berbasis komunitas yang
+            inklusif dan berkelanjutan.
+          </p>
+        </div>
+      </section>
+
+      <div class="back-button-container">
+        <a href="../index.html" class="back-button" id="tombolKembali"
+          >Back To Home</a
+        >
+      </div>
+    </div>
+
+    <script>
+      // Bagian JavaScript untuk fungsionalitas tambahan
+      const tombolKembali = document.getElementById("tombolKembali");
+
+      if (tombolKembali) {
+        tombolKembali.addEventListener("click", function (event) {
+          event.preventDefault();
+          // Ganti dengan aksi yang diinginkan, contoh:
+          window.location.href = "../index.html";
+          alert('Tombol "Back To Home" diklik!');
+          console.log("Tombol kembali telah diaktifkan.");
+        });
+      }
+    </script>
+    <script src="../lang.js"></script>
+    <script>
+      const savedLang = localStorage.getItem("lang") || "id";
+      applyLanguage(savedLang);
+    </script>
+  </body>
+</html>
