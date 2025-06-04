@@ -8,7 +8,7 @@ Proyek ini adalah website sederhana berbasis galeri yang menyajikan keindahan **
 
 Website ini bertujuan untuk menampilkan keindahan alam Pantai Trikora melalui galeri foto yang responsif dan mudah diakses. Pengunjung dapat:
 - Melihat foto-foto terbaik dari Pantai Trikora
-- Mengganti bahasa tampilan (Bahasa Indonesia / English)
+- Mengganti bahasa tampilan (Indonesia / English)
 - Mengakses situs dari berbagai perangkat (mobile & desktop)
 
 ---
@@ -18,7 +18,7 @@ Website ini bertujuan untuk menampilkan keindahan alam Pantai Trikora melalui ga
 | Nama |Peran |
 |------|-----|
 | Mhd Febri Yansah| UI / UX |
-| Cahyadi Prasetuo | Front End |
+| Cahyadi Prasetyo | Front End |
 | Syawal Rizal Utama | UI / UX 2|
 | Azmi Novi Athaya | Front End 2 |
 | Ezzy Auriel Syach Lie | Front End 3|
